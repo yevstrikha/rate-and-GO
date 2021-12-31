@@ -1,0 +1,275 @@
+@font-face { font-family: 'Lato', sans-serif;}
+@font-face{font-family: 'Montserrat', sans-serif;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    max-width: 1190px;
+    width: 100%;
+    margin: auto;
+}
+
+header{background:
+    linear-gradient(180deg, rgba(16, 23, 44, 45%) 0%,
+    rgba(16, 23, 44, 0.395) 52.22%,
+    rgba(16, 23, 44, 0.5) 89.6%),
+    url(../images/header_bg.jpg);
+    padding-top: 24px;
+    padding-bottom: 203px;
+}
+.top_info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
+}
+.top_contacts{
+    display: flex;
+    justify-content: space-between;
+}
+.reach{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    margin-left: 30px;
+}
+.phone_top:before{
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    transform: rotate(90deg) ;
+    content: "\f095";
+    margin-right: 10px;
+}
+.reach ul{
+    display: flex;
+    align-items: center;
+}
+.reach li{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    list-style: none;
+    color: white;
+    margin-right: 28px;
+}
+.reach img{
+    margin-right: 10px;
+}
+.language{
+    display: flex;
+}
+.language select{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+.language option{
+    background-color: #cb454d;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 108px;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: 7px;
+}
+.menu a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 24px;
+}
+.menu li:last-child a{
+    margin-left: 40px;
+}
+
+
+.menu li:last-child a:before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    content: "\f007";
+    margin-right: 11px;}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: white;
+    text-align: left;
+}
+h1 span{
+    color: #cb454d;
+}
+.main_info{
+    padding-top: 134px;
+    padding-bottom: 155px;
+}
+.content{
+    height: 950px;
+    background-color: aquamarine;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+margin: auto;
+    padding-top: 20%;
+writing-mode:vertical-lr;
+text-orientation: upright;}
+
+
+footer{
+    padding-top: 35px;
+    padding-bottom: 20px;
+    background-color: #11192E;
+}
+footer .container{
+    display: flex;
+}
+footer .logo{
+    margin-right: 92px;
+}
+.about_bottom{
+    display: flex;
+    padding-top: 15px;
+}
+footer li{
+    list-style: none;
+}
+footer a{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+
+.fist_column{
+    margin-right: 55px;
+}
+h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    margin-bottom: 16px;
+}
+.company{
+    margin-bottom: 35px;
+}
+.services{
+    margin-bottom: 70px;
+}
+.services a{
+    font-weight: 600;
+}
+
+.contact_us ul{
+    display: flex;
+}
+.contact_us li{
+    margin-right: 18px;
+}
+.second_column{
+    margin-right: 235px;
+    margin-bottom: 36px;
+}
+.second_column a{
+    margin-bottom: 13px;
+}
+.office_info{
+    margin-bottom: 45px;
+}
+.office_info h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    margin-bottom: 13px;
+}
+.office_info a {
+    line-height: 22px;
+    text-align: left;
+}
+.office_info img{
+    margin-right: 12px;
+}
+.question{
+    max-width: 285px;
+    width: 100%;
+    padding: 0 10px;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 25px;
+}
+.question p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    margin-bottom: 30px;
+}
+.question a{
+    font-weight: 600;
+    background-color: #CB454D;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.inner .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.terms_policy a{
+    margin-left: 120px;
+}
+.inner a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+
+
+
+
+
