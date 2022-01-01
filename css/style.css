@@ -16,7 +16,9 @@ a{
     margin: auto;
 }
 
-header{background:
+header{
+    display: flex;
+    background:
     linear-gradient(180deg, rgba(16, 23, 44, 45%) 0%,
     rgba(16, 23, 44, 0.395) 52.22%,
     rgba(16, 23, 44, 0.5) 89.6%),
@@ -24,6 +26,7 @@ header{background:
     padding-top: 24px;
     padding-bottom: 203px;
 }
+
 .top_info{
     display: flex;
     justify-content: space-between;
@@ -39,6 +42,7 @@ header{background:
 }
 .social{
     margin-left: 30px;
+    padding-top: 1%;
 }
 .phone_top:before{
     font-weight: 900;
@@ -255,7 +259,7 @@ h4{
 .inner .container{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding:20px 20px 0;
 }
 .terms_policy a{
     margin-left: 120px;
