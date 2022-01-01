@@ -171,6 +171,14 @@ footer a{
     font-size: 14px;
     line-height: 17px;
     margin-bottom: 10px;
+    transition: 0.3s;
+}
+.about_bottom a:hover{
+    color: #CB454D;
+}
+.question a:hover{
+    color: white;
+    border: solid 1px white;
 }
 
 .fist_column{

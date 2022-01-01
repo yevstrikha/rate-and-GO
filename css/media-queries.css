@@ -62,6 +62,7 @@ footer .logo{
 .about_bottom{
     justify-content: space-between;
 }
+
 .fist_column, .second_column{
     margin-right: 7%;
 }
@@ -74,6 +75,7 @@ footer .logo{
 .third_column a{
     text-align: center;
 }
+
     .terms_policy a{
         margin-left: 5%;
     }
