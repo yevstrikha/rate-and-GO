@@ -10,6 +10,9 @@ a{
     text-decoration: none;
     color: white;
 }
+li{
+    list-style: none;
+}
 .container{
     max-width: 1190px;
     width: 100%;
@@ -92,7 +95,10 @@ header{
     justify-content: space-between;
     margin-bottom: 108px;
 }
-.menu ul{
+.nav-links{
+    display: flex;
+}
+.nav-links ul{
     display: flex;
     justify-content: flex-end;
     list-style: none;
@@ -278,10 +284,5 @@ h4{
     font-size: 14px;
     line-height: 17px;
 }
-
-
-
-
-
 
 

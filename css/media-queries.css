@@ -27,10 +27,11 @@ display: block;
 header .logo{
     position: absolute;
     top: 8%;
-    left: 0;
+    left: 2%;
 }
 .language{
     align-items: flex-start;
+    padding-right: 9%;
 }
 .language img{
     padding-top: 4%;
@@ -38,6 +39,11 @@ header .logo{
 .menu{
     justify-content: center;
 }
+/*.top_contacts{*/
+/*    position: relative;*/
+/*    top: 0;*/
+/*    margin: auto;*/
+/*}*/
 h1{
     text-align: center;
 }
@@ -82,6 +88,188 @@ footer .logo{
     footer .container{
         align-items: center;
     }
+
+
+
+
+    .naw_media {
+        overflow: hidden;
+        max-width: 75px;
+        width: 100%;
+        transition: all 800ms cubic-bezier(.8, 0, .33, 1);
+        border-radius: 0% 0% 50% 100%;
+    }
+
+    .naw_media .nav-open {
+        position: absolute;
+        transform: translateX(10px);
+        border-radius: 0% 0% 0% 0%;
+        /*background: rgba(255, 255, 255, 0.6);*/
+    }
+
+   .naw_media .menu-btn {
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        padding: 0;
+        width: 30px;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+  .naw_media .menu-btn .line {
+        padding: 0;
+        width: 30px;
+        background: #000;
+        height: 2px;
+        margin: 5px 0;
+        transition: all 700ms cubic-bezier(.9, 0, .33, 1);
+    }
+
+   .naw_media .menu-btn .line.line--1 {
+        width: 30px;
+        transform: rotate(0) translateY(0);
+    }
+
+    .naw_media .menu-btn .line.line--1.line-cross {
+        width: 30px;
+        transform: rotate(45deg) translateY(10px);
+        background: rgba(0,0,0,0.6);
+    }
+
+    .naw_media .menu-btn .line.line--2 {
+        width: 28px;
+        transform: translateX(0);
+    }
+
+    .naw_media .menu-btn .line.line--2.line-fade-out {
+        width: 100%;
+        transform: translate(30px);
+        opacity: 0;
+    }
+
+    .naw_media .menu-btn .line.line--3 {
+        width: 20px;
+        transform: rotate(0) translateY(0);
+    }
+
+    .naw_media .menu-btn .line.line--3.line-cross {
+        width: 30px;
+        transform: rotate(-45deg) translateY(-10px);
+        background: rgba(0,0,0,0.6);
+    }
+
+    .naw_media .nav-links {
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-width: 75px;
+        background-color: red;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(0px);
+        opacity: 0;
+        transition: all 900ms cubic-bezier(.9, 0, .33, 1);
+    }
+    .menu a{
+        margin-left: 0;
+    }
+    .menu li:last-child a{
+        margin: 0;
+    }
+
+    .nav-links.fade-in {
+        opacity: 1;
+        list-style: none;
+    }
+
+    .fade-in{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+    }
+
+    .nav-links li {
+        margin: 20px 0;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: green;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 14px;
+        transition: all 300ms cubic-bezier(.9, 0, .33, 1);
+    }
+
+    nav .nav-links .link:hover {
+        color: rgba(0, 0, 0, .5);
+    }
+
+
+    /*.inform{*/
+    /*    position: absolute;*/
+    /*    top: 50%;*/
+    /*    left: 50%;*/
+    /*    transform: translate(-50%, -50%);*/
+    /*    color: rgba(255, 255, 255, 0.8);*/
+    /*    font-size: 2rem;*/
+    /*    font-family: sans-serif;*/
+    /*    text-transform: uppercase;*/
+    /*    letter-spacing: 5px;*/
+    /*    text-shadow: 0 0 20px rgba(0,0,0,0.6);*/
+    /*}*/
+
+    /*.support{*/
+    /*    position: absolute;*/
+    /*    right: 10px;*/
+    /*    bottom: 10px;*/
+    /*    padding: 10px;*/
+    /*    display: flex;*/
+    /*}*/
+    /*a{*/
+    /*    margin: 0 20px;*/
+    /*    color: #fff;*/
+    /*    font-size: 2rem;*/
+    /*    transition: all 400ms ease;*/
+    /*}*/
+
+    a:hover{
+        color: #222;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media only screen and (max-width: 767px) {
 .fist_column{
