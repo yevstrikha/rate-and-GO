@@ -39,11 +39,11 @@ header .logo{
 .menu{
     justify-content: center;
 }
-/*.top_contacts{*/
-/*    position: relative;*/
-/*    top: 0;*/
-/*    margin: auto;*/
-/*}*/
+.top_contacts{
+    position: relative;
+    top: 0;
+    margin: auto;
+}
 h1{
     text-align: center;
 }
@@ -163,7 +163,7 @@ footer .logo{
         position: absolute;
         top: 0;
         right: 0;
-        max-width: 75px;
+        max-width: 100% ;
         background-color: red;
         width: 100%;
         height: 100vh;
