@@ -1,17 +1,26 @@
 @media only screen and (max-width: 1024px) {
 .container{
     padding: 0 20px;
-
 }
+    header .container{
+        height: 100vh;
+    }
 
 .fist_column, .second_column{
     margin-right: 13%;
 }
 }
 @media only screen and (max-width: 992px) {
+    header{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
 .top_contacts{
-    display: block;
-    margin: auto;
+    display: none;
+}
+header .container{
+    height: 100%;
 }
 .reach ul{
 display: block;
@@ -28,24 +37,31 @@ header .logo{
     position: absolute;
     top: 8%;
     left: 2%;
+    z-index: 3;
 }
+/*.top_info{*/
+/*    position: relative;*/
+/*}*/
 .language{
-    align-items: flex-start;
-    padding-right: 9%;
+    position: absolute;
+    top: 8%;
+    right: 15%;
+    z-index: 3;
 }
 .language img{
-    padding-top: 4%;
-}
-.menu{
-    justify-content: center;
+    display: none;
 }
 .top_contacts{
     position: relative;
     top: 0;
     margin: auto;
 }
-h1{
+
+header h1{
+    position: relative;
+    top: 40%;
     text-align: center;
+    margin-top: 15%;
 }
    footer .container {
        display: flex;
@@ -103,19 +119,18 @@ footer .logo{
     .naw_media .nav-open {
         position: absolute;
         transform: translateX(10px);
-        border-radius: 0% 0% 0% 0%;
-        /*background: rgba(255, 255, 255, 0.6);*/
     }
 
    .naw_media .menu-btn {
-        position: absolute;
-        top: 10%;
+        position: fixed;
+        top: 8%;
         right: 5%;
         padding: 0;
         width: 30px;
         cursor: pointer;
-        z-index: 2;
+        z-index: 5;
     }
+
 
   .naw_media .menu-btn .line {
         padding: 0;
@@ -163,17 +178,16 @@ footer .logo{
         position: absolute;
         top: 0;
         right: 0;
-        max-width: 100% ;
         background-color: red;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         transform: translateX(0px);
         opacity: 0;
-        transition: all 900ms cubic-bezier(.9, 0, .33, 1);
+        transition: 0.3s;
     }
     .menu a{
         margin-left: 0;
@@ -183,90 +197,39 @@ footer .logo{
     }
 
     .nav-links.fade-in {
+        position: fixed;
+        height: 100%;
         opacity: 1;
         list-style: none;
+        overflow: auto;
+    }
+    .fade-in{
+        transition: 1s;
+    }
+    .nav-links.fade-in a{
+        font-size: 20px;
+    }
+    .nav-links .fade-in:last-child li{
+        margin-bottom: 0;
     }
 
     .fade-in{
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
+        z-index: 4;
     }
 
     .nav-links li {
-        margin: 20px 0;
+        margin: 15px 0;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
         color: green;
         font-weight: 400;
         text-transform: uppercase;
         font-size: 14px;
-        transition: all 300ms cubic-bezier(.9, 0, .33, 1);
     }
 
-    nav .nav-links .link:hover {
+    nav .nav-links a:hover {
         color: rgba(0, 0, 0, .5);
     }
-
-
-    /*.inform{*/
-    /*    position: absolute;*/
-    /*    top: 50%;*/
-    /*    left: 50%;*/
-    /*    transform: translate(-50%, -50%);*/
-    /*    color: rgba(255, 255, 255, 0.8);*/
-    /*    font-size: 2rem;*/
-    /*    font-family: sans-serif;*/
-    /*    text-transform: uppercase;*/
-    /*    letter-spacing: 5px;*/
-    /*    text-shadow: 0 0 20px rgba(0,0,0,0.6);*/
-    /*}*/
-
-    /*.support{*/
-    /*    position: absolute;*/
-    /*    right: 10px;*/
-    /*    bottom: 10px;*/
-    /*    padding: 10px;*/
-    /*    display: flex;*/
-    /*}*/
-    /*a{*/
-    /*    margin: 0 20px;*/
-    /*    color: #fff;*/
-    /*    font-size: 2rem;*/
-    /*    transition: all 400ms ease;*/
-    /*}*/
-
-    a:hover{
-        color: #222;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -275,6 +238,14 @@ footer .logo{
 .fist_column{
     display: none;
 }
+    header{
+        height: 100vh;
+    }
+    h1{
+        margin-top: 50%;
+        font-size: 34px;
+        line-height: 37px;
+    }
 
 }
 @media only screen and (max-width: 424px) {

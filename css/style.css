@@ -25,10 +25,11 @@ header{
     linear-gradient(180deg, rgba(16, 23, 44, 45%) 0%,
     rgba(16, 23, 44, 0.395) 52.22%,
     rgba(16, 23, 44, 0.5) 89.6%),
-    url(../images/header_bg.jpg);
+    url(../images/header_bg.jpg) ;
     padding-top: 24px;
     padding-bottom: 203px;
 }
+
 
 .top_info{
     display: flex;
@@ -93,7 +94,6 @@ header{
 .menu{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 108px;
 }
 .nav-links{
     display: flex;
@@ -129,6 +129,7 @@ h1{
     line-height: 58px;
     color: white;
     text-align: left;
+    margin-top: 108px;
 }
 h1 span{
     color: #cb454d;
@@ -181,6 +182,11 @@ footer a{
 }
 .about_bottom a:hover{
     color: #CB454D;
+}
+nav .nav-links a:hover{
+    color: #CB454D;}
+.language select:hover{
+    color: black;
 }
 .question a:hover{
     color: white;
