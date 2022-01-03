@@ -1,7 +1,5 @@
 @media only screen and (max-width: 1024px) {
-.container{
-    padding: 0 20px;
-}
+
     header .container{
         height: 100vh;
     }
@@ -46,9 +44,7 @@ header .logo{
     right: 15%;
     z-index: 3;
 }
-.language img{
-    display: none;
-}
+
 .top_contacts{
     position: relative;
     top: 0;
@@ -243,6 +239,9 @@ footer .logo{
         margin-top: 50%;
         font-size: 34px;
         line-height: 37px;
+    }
+    .language img{
+        display: none;
     }
 
 }
