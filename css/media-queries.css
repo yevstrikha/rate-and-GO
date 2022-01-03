@@ -203,9 +203,6 @@ footer .logo{
         list-style: none;
         overflow: auto;
     }
-    .fade-in{
-        transition: 1s;
-    }
     .nav-links.fade-in a{
         font-size: 20px;
     }
