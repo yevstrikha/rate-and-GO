@@ -116,7 +116,7 @@ footer .logo{
     }
 
    .naw_media .menu-btn {
-        position: fixed;
+        position: absolute;
         top: 8%;
         right: 5%;
         padding: 0;
