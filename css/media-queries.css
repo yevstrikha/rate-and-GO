@@ -39,9 +39,7 @@ header .logo{
     left: 2%;
     z-index: 3;
 }
-/*.top_info{*/
-/*    position: relative;*/
-/*}*/
+
 .language{
     position: absolute;
     top: 8%;
@@ -135,8 +133,8 @@ footer .logo{
   .naw_media .menu-btn .line {
         padding: 0;
         width: 30px;
-        background: #000;
-        height: 2px;
+        background: #ef3742;
+        height: 3px;
         margin: 5px 0;
         transition: all 700ms cubic-bezier(.9, 0, .33, 1);
     }
