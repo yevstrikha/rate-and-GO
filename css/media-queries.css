@@ -123,6 +123,7 @@ footer .logo{
         width: 30px;
         cursor: pointer;
         z-index: 5;
+       height: 100vh;
     }
 
 
@@ -141,6 +142,7 @@ footer .logo{
     }
 
     .naw_media .menu-btn .line.line--1.line-cross {
+        position: fixed;
         width: 30px;
         transform: rotate(45deg) translateY(10px);
         background: rgba(0,0,0,0.6);
@@ -163,6 +165,7 @@ footer .logo{
     }
 
     .naw_media .menu-btn .line.line--3.line-cross {
+        position: fixed;
         width: 30px;
         transform: rotate(-45deg) translateY(-10px);
         background: rgba(0,0,0,0.6);
